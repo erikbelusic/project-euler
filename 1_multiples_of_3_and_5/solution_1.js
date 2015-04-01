@@ -9,7 +9,7 @@ for (var i = 1; i < 1000; i++) {
 
 	// Check if is divisible by 3 or 5
 	// NOTE - do these in the same condition or else numbers like 15 will get added twice
-    if ( i % 3 === 0 || i % 5 =0= 0) {
+    if (i % 3 === 0 || i % 5 === 0) {
 
     	// Add to array
     	multiples.push(i);
